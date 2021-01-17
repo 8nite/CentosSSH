@@ -1,3 +1,3 @@
-FROM linuxserver/openssh-server
+FROM jdeathe/centos-ssh
 RUN touch .a
 CMD ["tail", "-f", ".a"]
